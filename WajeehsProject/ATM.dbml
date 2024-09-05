@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ATM" Class="ATMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-PDSAB38\SQLEXPRESS;Initial Catalog=ATM;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="My.Settings" SettingsPropertyName="ATMConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Check1" Member="Check1s">
+    <Type Name="Check1">
+      <Column Name="AN" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PinCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Lname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Adr" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DBO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Balance" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="out_Bl" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="Blocked" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
